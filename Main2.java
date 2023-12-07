@@ -4,7 +4,7 @@ public class Main2{
         int start = Integer.parseInt(args[0]);
         int end = Integer.parseInt(args[1]);
         
-        Addition1 add=(int x,int y)->
+        Addition2 add=(int x,int y)->
         {
             int sum=0;
             for(int i=x;i<=y;i++)
